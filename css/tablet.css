@@ -5,7 +5,7 @@
         right: 0px;
         top: 0;
         z-index: -1;
-        max-width: 25em;
+        max-width: 30em;
       }
 
     .banner-img2{
@@ -56,5 +56,50 @@
         margin-right: 240px;
         margin-top: 30px;
     }
+
+    .banner-text-7{
+      z-index: 1;
+      color: #ffffff;
+      font-size: 0px;
+      text-align: center;
+    }
+    .banner-text-8{
+      z-index: 1;
+      color: #FDB813;
+      font-size: 30px;
+      text-align: center;
+      padding-left: 70px;
+      float: left;
+    }
+
+    .banner-section3{
+      background-color: #060951;
+      z-index: 0;
+      height: 550px;
+    }
+
+    .banner-section4{
+      background-color: #051471;
+      z-index: 0;
+      height: 550px;
+      padding-left: 140px;
+    }
+
+    .banner-img4{
+      background-image: none;
+      max-width: 0;
+    }
+
+    .banner-img5{
+      max-width: 25em;
+    }
     
+    .banner-img9{
+      background-image: none;
+      max-width: 0;
+  }
+  .banner-img10{
+      background-image: none;
+      max-width: 0;
+  }
 }
