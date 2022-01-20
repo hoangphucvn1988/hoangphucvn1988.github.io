@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+      <meta name="generator" content="Hugo 0.88.1">
+      <title>Smart Home</title>
+      <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/heroes/">
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <!-- AOS -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- Favicons -->
+      <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
+      <link rel="icon" href="favicon-32x32.png" sizes="32x32" type="image/png">
+      <link rel="icon" href="favicon-16x16.png" sizes="16x16" type="image/png">
+      <link rel="manifest" href="manifest.json">
+      <link rel="mask-icon" href="" color="#7952b3">
+      <link rel="icon" href="favicon.ico">
+      <meta name="theme-color" content="#7952b3">
+      <style>
+         input[type=text] {
+         width: 530px;
+         padding: 10px 15px;
+         margin: 8px 0;
+         display:inline-block;
+         border:1px solid #4B6ED2;
+         text-decoration:none;
+         border-radius:30px;
+         padding-left: 40px;
+         background: #173079;
+         color: #4B6ED2;
+         font-weight: 200;
+         }
+         input[type=submit] {
+         width: 530px;
+         display:inline-block;
+         background-color: #FDB813;
+         border:none;
+         color: #051471;
+         padding:15px 25px;
+         border-radius:30px;
+         margin-top: 10px;
+         font-weight: 500;
+         }
+         .bd-placeholder-img {
+         font-size: 1.125rem;
+         text-anchor: middle;
+         -webkit-user-select: none;
+         -moz-user-select: none;
+         user-select: none;
+         }
+         @media (min-width: 768px) {
+         .bd-placeholder-img-lg {
+         font-size: 3.5rem;
+         }
+         }
+      </style>
+      <link rel="stylesheet" href="./css/fonts.css">
+      <!-- Link Swiper's CSS -->
+      <link
+         rel="stylesheet"
+         href="https://unpkg.com/swiper/swiper-bundle.min.css"
+         />
+      <!-- Custom styles for this template -->
+      <link href="css/template.css" rel="stylesheet">
+      <link href="css/tablet.css" rel="stylesheet">
+      <link href="css/mobile.css" rel="stylesheet">
+   </head>
+   <body>
+      <!-- menu -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+         <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.svg" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#gioithieu">Giới thiệu</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#quanly">Quản lý Smart home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#huongdan">Hướng dẫn</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#ketnoi">Kết nối</a>
+                  </li>
+                  <li class="nav-item-download">
+                     <a class="nav-link-download" style="color: #1EDAFF" href="#taiungdung">Tải ứng dụng</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+         <div class="container position-relative">
+            <div class="banner-text">
+               <div class="banner-text-1">Welcome to</div>
+               <div class="banner-text-2">Smart<br>Home</div>
+               <div class="banner-text-3">Giải pháp căn hộ thông minh tiện lợi</div>
+               <a href="#"><button class="button-download"> Tải ứng dụng</button></a>
+            </div>
+            <img src="./img/iphone3.png" class="banner-img" alt="dienthoai" data-aos="fade-left">
+         </div>
+      </div>
+      <div id="gioithieu" class="banner-section2">
+         <div class="container position-relative">
+            <img src="./img/iphone4.png" class="banner-img2" alt="dienthoai">
+            <div class="banner-text-section2">
+               <div class="banner-text-4">Giới thiệu</div>
+               <div class="banner-text-5">Nhà thông minh, chuẩn an ninh</div>
+               <div class="banner-text-6">Với mục đích mang đến một cuộc sống đơn giản nhất, chất lượng nhất bằng việc ứng dụng các thiết bị Thông minh trong thời đại công nghiệp 4.0 cho tất cả Khách hàng. Smart Home phải đi tìm các giải pháp phù hợp nhất với các tiêu chí khách hàng đưa ra để đảm bảo Ngôi nhà thân thuộc của khách hàng là một ngôi nhà Thông Minh. Ngoài vấn đề sản phẩm chất lượng, sang trọng đẹp mắt, tính năng công nghệ cao chúng tôi cũng rất quan tâm đến vấn đề an ninh cho ngôi nhà hiện đại. Đây cũng là vấn đề đặt lên hàng đầu của Nhà thông minh.</div>
+            </div>
+         </div>
+      </div>
+      <div class="banner-section3">
+         <div class="container position-relative">
+            <img src="./img/flow5.png" class="banner-img3" alt="flow">
+         </div>
+      </div>
+      <div id="quanly" class="banner-section4">
+         <div class="container position-relative">
+            <div class="banner-text-7">woss smart home</div>
+            <div class="banner-text-8">Quản lý Smart Home</div>
+            <img src="./img/iphone5.png" class="banner-img4" alt="dienthoai">
+            <img src="./img/quanly.png" class="banner-img5" alt="dienthoai">
+         </div>
+      </div>
+      <div id="huongdan" class="banner-section5">
+         <div class="container position-relative">
+			<div style="margin-right: 120px;">
+				<div class="banner-text-7a text-center">Smart Home Mobile App</div>
+				<div class="banner-text-8a text-center mb-5">Hướng dẫn sử dụng</div>
+			</div>
+		
+            
+            
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+					  <div class="row">
+						  <div class="col-12 col-lg-6" style="max-width: 25em; margin-left: 60px;"><img src="./img/iphone6.png" class="banner-img6" alt="dienthoai"></div>
+						  <div class="col-12 col-lg-6">
+							<div class="banner-text-9" style="color: rgb(255, 255, 255); font-size: 44px; padding-top: 50px;">Đăng nhập và <br>Chọn kết nối Wifi</div>
+							<div class="banner-text-10" style="font-weight: 150; padding-top: 20px; width: 460px;">Đầu tiên, bạn vui lòng nhập tài khoản và mật khẩu đã tạo sẵn vào phần đăng nhập. Nếu chưa có tài khoản có thể bấm vào phần “Đăng ký ngay” bên dưới hoặc cũng có thể đăng nhập bằng Facebook và Google mail.
+							   Tiếp theo, bạn chọn mạng wifi tại nhà của bạn và nhập mật khẩu wifi, bấm tiếp tục để vào ứng dụng.
+							</div>
+						  </div>
+					  </div>
+				  </div>
+                  <div class="swiper-slide">
+					<div class="row">
+						<div class="col-12 col-lg-6" style="max-width: 25em; margin-left: 60px;"><img src="./img/iphone6.png" class="banner-img6" alt="dienthoai"></div>
+						<div class="col-12 col-lg-6">
+						  <div class="banner-text-9" style="color: rgb(255, 255, 255); font-size: 44px; padding-top: 50px;">Đăng nhập và <br>Chọn kết nối Wifi</div>
+						  <div class="banner-text-10" style="font-weight: 150; padding-top: 20px; width: 460px;"> Đầu tiên, bạn vui lòng nhập tài khoản và mật khẩu đã tạo sẵn vào phần đăng nhập. Nếu chưa có tài khoản có thể bấm vào phần “Đăng ký ngay” bên dưới hoặc cũng có thể đăng nhập bằng Facebook và Google mail.
+							 Tiếp theo, bạn chọn mạng wifi tại nhà của bạn và nhập mật khẩu wifi, bấm tiếp tục để vào ứng dụng.
+						  </div>
+						</div>
+					</div>
+				</div>
+                  
+               </div>
+               <div class="swiper-button-next" style="margin-right: 80px;"></div>
+               <div class="swiper-button-prev"></div>
+            </div>
+         </div>
+      </div>
+      <div id="ketnoi" class="banner-section6">
+         <div class="container position-relative">
+            <div class="banner-text-11">Kết nối</div>
+            <div style="width: 1000px;">
+               <img src="./img/ketnoi1.png" class="banner-img7" alt="ketnoi">
+               <div class="banner-text-12">Kết nối Wifi</div>
+               <div class="banner-text-13">Công nghệ điện toán đám mây giúp người sử dụng dễ dàng truy cập và quản lý ngôi nhà của bạn mọi lúc mọi nơi bất cứ nơi đâu có kết nối wifi và 4G.</div>
+            </div>
+            <div style="width: 1000px;">
+               <div class="banner-text-14">Bluetooth</div>
+               <div class="banner-text-15">Công nghệ kết nối BLE - Bluetooth low engergy giúp kết nối tự động Woss Smart Home app kích hoạt tính năng đóng mở các thiết bị thông minh trong ngôi nhà bạn.</div>
+               <img src="./img/ketnoi2.png" class="banner-img8" alt="ketnoi">
+            </div>
+         </div>
+      </div>
+      <div id="lienhe" class="banner-section7">
+         <div class="container position-relative">
+            <div class="banner-text-16">Liên hệ</div>
+            <div class="form-contact">
+               <form class="input-form">
+                  <input type="text" id="name" name="name" value="Họ tên"> <br>
+                  <input type="text" id="phone" name="phone" value="Số điện thoại"> <br>
+                  <input type="text" id="email" name="email" value="Email của bạn">
+                  <input type="submit" name="submit" value="Gửi liên hệ" />
+               </form>
+            </div>
+            <img src="./img/lienhe.png" class="banner-img9" alt="lienhe">
+         </div>
+      </div>
+      <div id="taiungdung" class="banner-section8">
+         <div class="container position-relative">
+            <img src="./img/taiungdung.png" class="banner-img10" alt="dienthoai">
+            <div class="banner-text-section2">
+               <div class="banner-text-17">Tải ứng dụng</div>
+               <div class="download-app">
+                  <a href="#"><img src="./img/ios.svg" class="banner-img11" alt="ios"></a>
+                  <a href="#"><img src="./img/android.svg" class="banner-img11" alt="android" style="margin-left: 10px;"></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer -->
+      <div class="banner-section9">
+         <div class="container position-relative">
+            <div class="col1">
+               <div class="banner-text-18">Powered by</div>
+               <br>
+               <a href="#"><img src="./img/logo-woss-2.svg" class="banner-img12" alt="logo-woss"></a>
+               <br><br><br>
+               <div class="banner-text-19">C53, B4 Street Sala City, Thu Duc, HCMC </div>
+               <div class="banner-text-19">C0862-323-118 </div>
+               <div class="banner-text-19">info@woss.vn </div>
+            </div>
+            <div class="col2">
+               <div class="banner-text-18" >Link</div>
+               <br>
+               <a href="#" class="banner-text-19" >Trang chủ</a><br>
+               <a href="#gioithieu" class="banner-text-19">Giới thiệu</a><br>
+               <a href="#quanly" class="banner-text-19">Quản lý Smart Home</a><br>
+               <a href="#huongdan" class="banner-text-19">Hướng dẫn</a><br>
+               <a href="#ketnoi" class="banner-text-19">Kết nối</a>
+            </div>
+            <div class="col3">
+               <div class="banner-text-18">Tải ứng dụng</div>
+               <br>
+               <a href="#"><img src="./img/ios-footer.svg" class="banner-img13" alt="ios"></a>
+               <a href="#"><img src="./img/android-footer.svg" class="banner-img13" alt="android" style="padding-top: 20px;"></a>
+            </div>
+            <br><br><br>
+            <div class="banner-text-19" style="text-align: center; padding-left: 240px;">Copyright © 2022 Woss. All rights reserved.</div>
+         </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+         crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src="js/index.js"></script>
+   </body>
+</html>
